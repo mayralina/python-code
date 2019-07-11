@@ -1,0 +1,7 @@
+#Ejemplo personalizado
+
+import re #re es un moduelo que esta por default en paython
+
+def validate_email(email):
+   if len(email) > 7 :
+      return bool/re.match("
